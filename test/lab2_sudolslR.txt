@@ -1,0 +1,12 @@
+.:
+итого 12
+drw-rwxr-x. 2 maxim maxim 4096 сен 23 22:18 dir
+-r--r-----. 1 root  maxim    5 сен 23 22:02 file
+-rw-------. 1 maxim maxim    0 сен 23 22:39 file1
+-rw-rw-rw-. 1 maxim maxim    0 сен 23 22:41 file2
+-rw-rw-r--. 1 maxim maxim  348 сен 23 22:50 lab2_lslR.txt
+-rw-rw-r--. 1 maxim maxim    0 сен 23 22:50 lab2_sudolslR.txt
+
+./dir:
+итого 4
+-rw-rw-r--. 1 maxim maxim 6 сен 23 22:18 new_file
