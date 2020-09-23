@@ -1,0 +1,62 @@
+    1  mkdir test
+    2  cd test
+    3  touch file
+    4  ls -l
+    5  man chmod
+    6  chmod a-rwx file 
+    7  ls -l 
+    8  echo test >> file 
+    9  cat file
+   10  chmod u-w
+   11  chmod u-w file 
+   12  ls -l
+   13  chmod u+w file 
+   14  ls -l
+   15  echo Test >> file
+   16  cat file 
+   17  chmod g+r file
+   18  ls -l
+   19  cat file
+   20  chmod u+r file 
+   21  ll
+   22  cat file
+   23  mkdir dir
+   24  cd dir
+   25  touch new_file
+   26  ls 
+   27  echo File2 >> new_file 
+   28  cd ..
+   29  ls dir/
+   30  ls -l
+   31  chmod u-x dir/
+   32  ls dir/
+   33  cat dir/new_file 
+   34  rm dir/new_file 
+   35  chown root dir/
+   36  chown u:root dir/
+   37  chown root:root dir/
+   38  umask
+   39  umask dir/
+   40  umask 600
+   41  umask
+   42  touch file1
+   43  ls -l
+   44  rm file1
+   45  umask 006
+   46  touch file1
+   47  ls -l
+   48  rm file1
+   49  umask 066
+   50  touch file1
+   51  ll
+   52  umask 000
+   53  touch file2
+   54  ll
+   87  sudo -s
+   88  cat file
+   89  sudo chmod g+r file
+   90  cat file
+   91  ls -lR
+   92  ls -lR >> lab2_lslR.txt
+   93  sudo ls -lR >> lab2_sudolslR.txt
+   94  history >> lab2_history.txt
